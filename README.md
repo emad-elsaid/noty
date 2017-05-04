@@ -20,6 +20,14 @@ $ gem install noty
 1. xsel : could be found on most distros official repositories
 2. xdg-open : should be installed with most opendesktop compatible desktop environments
 
+## Environment
+
+by default Noty saves your files in `~/.notes` if you want to change that path, define an Environment variable in your shell init file `.bashrc` or `.zshrc`
+
+```bash
+export NOTES_PATH=/path/to/your/notes/dir
+```
+
 
 ## Usage
 
